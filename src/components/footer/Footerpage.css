@@ -1,0 +1,137 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #0D0928;
+    padding: 70px 100px;
+  }
+  
+  .footer-section {
+    width: 28%;
+    color: #ffffff;
+    margin-bottom: 50px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ffffff;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: solid 1px #cccccc;
+    margin-right: 15px;
+    color: #202020;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .newsletter form {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  
+  .newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #202020;
+  }
+  
+  .newsletter button[type="submit"] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #202020;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .newsletter button[type="submit"]:hover {
+    background-color: #c3c3c3;
+  }
+  
+  @media (max-width: 992px) {
+    .footer {
+      padding: 70px 50px;
+    }
+    .footer-section {
+      width: 40%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 70px 30px;
+    }
+    .footer-section {
+      width: 100%;
+      text-align: center;
+    }
+    .social-icons {
+      justify-content: center;
+    }
+    .newsletter form {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,159 @@
+.containermenu{
+    height: 100px;
+}
+.menus{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: #0D0928;
+    z-index: 9999;
+}
+
+.logo{
+    left: 0;
+    position: absolute;
+    width: 20%;
+}
+
+.menubars{
+    right: 0;
+    position: absolute;
+    width: 80%;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    letter-spacing: -0.017em;
+    color: #FFFFFF;
+}
+
+.menutop a{
+        color: #CCCCCC;
+        text-decoration: none;
+}
+
+.menutop{
+    color: #CCCCCC;
+    position:absolute;
+    right: 28%;
+    float: left;
+    margin-top: 10px;
+}
+
+.navigatortop{
+    text-align-last: right;
+}
+
+.navigatortop ul{
+    position: absolute;
+    display: inline-flex;
+    gap: 1rem;
+    list-style: none;
+}
+.navigatortop ul li:hover, .navigatortop ul li:hover a{
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.navigatorbottom {
+    display: flex;
+}
+
+.navigatorbottom ul{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+}
+
+.navigator ul li{
+    padding-right:15px ;
+    padding-left: 15px;
+    position: static;
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+.menubottom a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navigator ul li:hover >  a{
+    color: #0D0928;
+}
+
+.navigatorbottom ul li:hover, .navigatorbottom ul li:hover a{
+   background-color: #FFFFFF;
+   color: #0D0928;
+}
+
+.itemmenu{
+cursor: pointer;
+bottom: 0;
+padding: 34px 0 30px 0px ;
+position: absolute;
+}
+
+.itemmarvel{
+    background-color:#EF131E;
+}
+
+.iconosnav{
+    position:absolute;
+    right: 21%;
+    float: left;
+    margin-top: 24px;
+    padding-top: 0;
+    gap: 1rem;
+}
+
+.iconosnav ul{
+    position: absolute;
+}
+
+.iconosnav ul li{
+    font-size: 25px;    
+    padding:12px 12px 20px 12px;    
+    cursor: pointer;
+}
+.dropdownm{  
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    left: 0%;
+    height: 405px;
+    background-color: #ffffff;
+    z-index: 1000;
+    display: none;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.itemmenu:hover + .dropdownm{
+animation: scrollingIn 1.5s linear forwards;
+display: block;
+}
+  @keyframes scrollingIn {
+    0% {
+      
+      opacity: 1;
+    }
+    1% {
+      
+      opacity: 1;
+    }
+    100% {
+      
+      opacity: 1;
+    }
+  }
+
+  .dropdownm:hover{
+    display: block;
+  }
+  
+.menucards{
+    display: flex;
+}

@@ -1,0 +1,133 @@
+
+
+
+.registro {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+form {
+    position: relative;
+    width: 800px;
+    padding: 20px 0;
+    margin: auto;
+    border-bottom: solid 2px #0D0928;
+    border-top: solid 2px #0D0928;    
+}
+
+.fila{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    padding-bottom: 5px
+}
+.filaterminos{
+    margin-left: 15%;
+    padding-top: 10px;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    
+}
+.colone{
+    left: 0;
+    width: 45%; 
+    padding-right: 50px; 
+    padding-right: 50px;   
+}
+
+.coltwo{
+    right: 0;
+    width: 45%;
+    padding-left: 50px;  
+}
+
+form a{
+    text-decoration: none;
+    color: #EF131E;
+}
+
+form a:hover{
+    color: #2c1212;
+}
+
+.coltcheck{
+    
+    padding-left: 50px;  
+}
+
+.colterminos{
+    
+    padding-left: 50px;  
+}
+
+.fila label{
+    text-align-last: left;
+}
+
+.fila input{
+    border-radius: 5px;
+}
+
+.colterminos{
+    padding-left: 5%;
+}
+
+.center button{
+    border-radius: 20px 0 20px 0 ;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+    font-style: normal; 
+    color:#0D0928; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-field {
+    margin-bottom: 10px; /* Ajusta la cantidad de espacio inferior según tus necesidades */
+  }
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 10px;
+    border: 10cap;
+    border-color: 0D0928;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #0D0928;
+    color: white;
+    /*padding: 10px 20px;*/
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+    display: block; 
+  }
+  
+  button:hover {
+    background-color: #EF131E;
+    
+ }

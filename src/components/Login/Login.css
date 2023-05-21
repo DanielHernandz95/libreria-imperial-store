@@ -1,0 +1,88 @@
+.login {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    
+}
+
+form {
+    position: relative;
+    /*width: 600px;*/
+    /*padding: 2% 6%;*/
+    margin: auto;
+    border-bottom: solid 2px #0D0928;
+    border-top: solid 2px #0D0928;    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.center button{
+    border-radius: 20px 0 20px 0 ;
+    font-weight: 900;
+    padding: 10px 30px;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center2 button{
+    border-radius: 20px 0 20px 0 ;
+    font-weight: 900;
+    padding: 10px 20px;
+    color: #0D0928;
+    background-color:#ffffff ;
+    border: solid 5px #0D0928;
+}
+
+
+
+.crearcuenta{
+    padding-top: 3%;
+}
+
+.crearcuenta label{
+    color: #000000;
+}
+
+.crearcuenta a{
+    color: #0D0928;
+    text-decoration: none;
+}
+
+
+.forgot{
+padding-top: 2%;
+}
+
+.forgot label{
+    color: #EF131E;
+}
+
+.h1 {
+    font-size: 30px;
+    font-family: 'Roboto Condensed';
+    font-style: normal; 
+    color: #f2f2f2;   
+}
+
+.login label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+

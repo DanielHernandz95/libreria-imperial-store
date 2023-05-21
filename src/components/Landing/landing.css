@@ -1,0 +1,86 @@
+.landingcontainer{   
+    padding-top: 50PX;
+    background: #3e424a;
+    background: -moz-linear-gradient(top, #acabab 0%, #222222 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #555555), color-stop(100%, #222222));
+    background: -webkit-linear-gradient(top, #acabab 0%, #222222 100%);
+    background: -o-linear-gradient(top, #acabab 0%, #222222 100%);
+    background: -ms-linear-gradient(top, #acabab 0%, #222222 100%);
+    background: linear-gradient(to bottom, #acabab 0%, #222222 100%);
+}
+
+
+.landingcontainer h1{
+    text-align-last: center;
+    font-size: 50px;
+}
+
+.landingcontainer h2{
+    text-align-last: center;
+}
+
+.heroes{   
+        width: 100%;
+        -webkit-filter: brightness(80%);
+        filter: brightness(80%);
+        width:100%;
+        
+}
+
+.testimonios{
+    width: 100%;
+    text-align-last:center ;
+    display: inline-flex ;
+    justify-content: center;
+    padding: 2% 5% 5% 5%;
+}
+
+.people{
+    background-color: transparent;
+    border: transparent;
+    margin:auto;
+    max-width: 20%;
+}
+
+.people span{
+    font-weight: 800;
+    margin: 5px;
+}
+
+.people i{
+    font-weight: 600;
+    margin: 5px;
+}
+
+.person{
+    border-radius: 1000px;
+    margin:auto;
+    width: 150px;
+}
+
+.reader{
+    width: 50%;
+    opacity: .6;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.containerbanner{
+    display: inline-flex;
+}
+
+.contactanos{
+    padding: 50px;
+}
+
+.botoncontact{
+    border: solid 2px #ffffff;
+}
+
+.botoncontact:hover{
+    color: #0D0928;
+    background-color: #ffffff;
+    border: solid 5px #0D0928;
+}
+.unete{
+    color: #ffffff;
+}

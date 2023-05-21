@@ -1,0 +1,19 @@
+.boton-flotante{
+	display:scroll;
+	position:fixed;
+	bottom:3vh;
+	right:1vw;
+	width:15%;
+	z-index:999;
+}
+
+.boton-flotante:hover {
+    transform: scale(1.1);
+  }
+
+
+@media (max-width: 600px) {
+  .boton-flotante {
+    /*display: none;*/
+  }
+}
